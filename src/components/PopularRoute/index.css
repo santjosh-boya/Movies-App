@@ -1,0 +1,9 @@
+.route-container {
+  margin-top: 100px;
+  min-height: 500px;
+  background-color: #181818;
+}
+
+.list-styles {
+  list-style-type: none;
+}

@@ -1,0 +1,61 @@
+.home-page-container {
+  background: #181818;
+  /* height: 100vh; */
+}
+
+.movie-title {
+  color: white;
+}
+
+.movie-description {
+  color: white;
+}
+
+.homepage-movie {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.home-page-movie-container {
+  height: 460px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #0d0d0d;
+  align-items: center;
+}
+
+.movie-play-button {
+  width: 75px;
+  height: 40px;
+}
+
+.react-slick-item {
+  background: skyblue;
+}
+
+.poster {
+  margin: 0px 10px;
+  height: 100px;
+}
+
+@media (min-width: 768px) {
+  .poster {
+    margin: 0px 15px;
+    height: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .poster {
+    margin: 0px 30px;
+    height: 250px;
+  }
+}
+
+.section-heading {
+  color: white;
+}
